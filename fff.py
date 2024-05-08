@@ -19,12 +19,6 @@ def clock():
     b1.place(x=x1,y=y1)
     root.after(1000, clock)
 
-my_image=PhotoImage(file="smile.gif")
-b1=Button(root, command=b1_click, image=my_image)
-b1.place(x=0, y=0)
-clock()
 
-lab=Label(root, text="*", width=3, bg="blue", fg="white")
-lab.pack(expand=1, anchor=NW)
 
 root.mainloop()
