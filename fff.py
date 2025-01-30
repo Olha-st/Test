@@ -1,4 +1,3 @@
-from tkinter import*
 from random import randint
 import time     # Модуль для роботи з часом і таймерами
 
